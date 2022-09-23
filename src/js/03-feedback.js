@@ -10,7 +10,7 @@ initPage();
 
 function onSubmitBtn(evt) {
   evt.preventDefault();
-  console.info(`imail: ${form.email.value} message: ${form.message.value}`);
+  console.info(`Email: ${form.email.value} message: ${form.message.value}`);
   evt.currentTarget.reset();
   localStorage.removeItem(LOCAL_KEY);
 }
